@@ -5,10 +5,10 @@
         "module": "ES2015",
         "target": "ES6",
         "outDir": "./build",
-        "rootDir": "./src",
         "noEmit": false,
         "allowImportingTsExtensions": false,
-        "declarationMap": false
+        "declarationMap": false,
+        "experimentalDecorators": true
     },
     "exclude": [
         "node_modules",
